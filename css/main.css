@@ -10,7 +10,7 @@ html {
 body {
   font-family: "PT Serif";
   font-style: normal;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 img {
@@ -26,8 +26,17 @@ strong {
   font-weight: normal;
 }
 
+dt {
+  font-weight: bold;
+}
+
 ol {
   list-style-type: lower-greek;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: .8rem;
 }
 
 a {
@@ -71,5 +80,13 @@ blockquote p {
   font-family: "PT Serif";
   font-weight: bold;
   line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fontsize {
   font-size: 1.125rem;
 }
